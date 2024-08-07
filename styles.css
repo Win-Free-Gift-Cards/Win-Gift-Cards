@@ -14,9 +14,15 @@ body {
     text-align: center;
 }
 
+.logo{
+  display: flex;
+  align-content: flex-end;
+}
 
-
-
+.logo img{
+  max-width: 50px;
+  border-radius: 100%;
+}
   
   
 
@@ -24,6 +30,7 @@ body {
 
 .container {
     padding: 20px;
+    
 }
 
 h1 {
